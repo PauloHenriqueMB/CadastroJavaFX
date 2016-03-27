@@ -50,9 +50,9 @@
                         <Label layoutX="5.0" layoutY="6.0" text="Person Details:" />
                         <HBox layoutX="223.0" layoutY="250.0" spacing="3.0" AnchorPane.leftAnchor="223.0">
                            <children>
-                              <Button mnemonicParsing="false" text="New... " />
-                              <Button mnemonicParsing="false" text="Edit..." />
-                              <Button mnemonicParsing="false" text="Delete" />
+                              <Button mnemonicParsing="false" onAction="#handleNewPerson" text="New... " />
+                              <Button mnemonicParsing="false" onAction="#handleEditPerson" text="Edit..." />
+                              <Button mnemonicParsing="false" onAction="#handleDeletePerson" text="Delete" />
                            </children>
                         </HBox>
                      </children>
